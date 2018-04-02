@@ -1,0 +1,8 @@
+.slider .thumb {
+    -fx-background-image :url("globus.png"); 
+    -fx-padding: 16; /* My thumb image is 33x33 pixels,so padding is half */
+    -fx-pref-height: 28;
+    -fx-pref-width: 28;
+
+    -fx-background-color:transparent;
+}

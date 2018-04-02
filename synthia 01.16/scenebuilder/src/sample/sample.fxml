@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.effect.BoxBlur?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.MotionBlur?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane id="win" accessibleText="HPF" hgap="10" stylesheets="@style.css" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints percentWidth="24.0" />
+      <ColumnConstraints percentWidth="24.0" />
+      <ColumnConstraints percentWidth="20.0" />
+      <ColumnConstraints percentWidth="15.0" />
+      <ColumnConstraints />
+      <ColumnConstraints percentWidth="23.0" />
+      <ColumnConstraints />
+      <ColumnConstraints percentWidth="23.0" />
+      <ColumnConstraints percentWidth="23.0" />
+      <ColumnConstraints />
+      <ColumnConstraints maxWidth="89.0" minWidth="0.0" prefWidth="49.0" />
+      <ColumnConstraints maxWidth="89.0" minWidth="0.0" prefWidth="49.0" />
+      <ColumnConstraints maxWidth="136.0" minWidth="47.0" prefWidth="87.0" />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="2.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="22.0" minHeight="0.0" prefHeight="22.0" />
+      <RowConstraints maxHeight="348.0" minHeight="121.0" percentHeight="100.0" prefHeight="343.0" />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+
+   </rowConstraints>
+   <children>
+
+
+      <Group GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <children>
+            <Button fx:id="playButton" layoutX="3.0" mnemonicParsing="false" onAction="#onPlayClicked" snapToPixel="false" text="Play">
+               <font>
+                  <Font name="MS PGothic" size="15.0" />
+               </font></Button>
+            <Button fx:id="stopButton" layoutX="151.0" mnemonicParsing="false" onAction="#onStopClicked" snapToPixel="false" text="Stop">
+               <font>
+                  <Font name="MS PGothic" size="15.0" />
+               </font></Button>
+            <Button fx:id="pauseButton" layoutX="73.0" mnemonicParsing="false" onAction="#onPauseClicked" snapToPixel="false" text="Pause">
+               <font>
+                  <Font name="MS PGothic" size="15.0" />
+               </font></Button>
+         </children>
+      </Group>
+      <Group GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="44">
+         <children>
+            <Label fx:id="lpf" prefHeight="12.0" prefWidth="43.0" text="LPF" textAlignment="CENTER" textOverrun="CLIP">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </Label>
+            <Label fx:id="hpf" layoutX="112.0" prefHeight="16.0" prefWidth="43.0" text="HPF" textAlignment="CENTER" textOverrun="CLIP">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </Label>
+         </children>
+         <GridPane.margin>
+            <Insets left="40.0" />
+         </GridPane.margin>
+      </Group>
+
+
+      <Group opacity="0.71" GridPane.columnIndex="1" GridPane.rowIndex="13">
+         <children>
+            <RadioButton fx:id="TurnOnEqualizer" cacheShape="false" centerShape="false" focusTraversable="false" layoutX="77.0" layoutY="11.0" mnemonicParsing="false" onAction="#onFilterRadioClicked" opacity="0.67" prefHeight="21.0" prefWidth="163.0" text="Turn on/off eq" textFill="WHITE">
+               <font>
+                  <Font name="MS PGothic" size="14.0" />
+               </font></RadioButton>
+            <Label fx:id="turneq" prefHeight="42.0" prefWidth="77.0">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <HBox prefHeight="42.0" prefWidth="110.0" GridPane.columnIndex="13" GridPane.columnSpan="9" GridPane.rowIndex="13">
+         <children>
+            <RadioButton fx:id="TurnOnReverb" mnemonicParsing="false" onAction="#onReverbRadioClicked" opacity="0.67" prefHeight="21.0" prefWidth="197.0" text="Turn on/off reverb" textFill="WHITE">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="MS PGothic" size="14.0" />
+               </font>
+            </RadioButton>
+         </children>
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin>
+      </HBox>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="400.0" prefWidth="250.0" GridPane.columnSpan="10" GridPane.rowIndex="15" GridPane.rowSpan="9">
+         <children>
+            <Slider fx:id="freqLP" layoutX="50.0" layoutY="14.0" majorTickUnit="500.0" max="16000.0" min="50.0" minorTickCount="10" orientation="VERTICAL" prefHeight="359.0" prefWidth="18.0" showTickLabels="true" showTickMarks="true" value="15000.0">
+               <effect>
+                  <Glow level="0.59">
+                     <input>
+                        <ColorAdjust brightness="0.03" contrast="0.73" hue="0.23" saturation="0.27" />
+                     </input>
+                  </Glow>
+               </effect>
+               <padding>
+                  <Insets right="1.0" />
+               </padding></Slider>
+            <Slider fx:id="qLP" layoutX="100.0" layoutY="14.0" majorTickUnit="0.1" max="1.0" minorTickCount="10" orientation="VERTICAL" prefHeight="359.0" prefWidth="18.0" showTickLabels="true" showTickMarks="true" value="0.5">
+               <effect>
+                  <Glow level="0.59">
+                     <input>
+                        <ColorAdjust brightness="-0.5" contrast="1.0" hue="0.2" saturation="0.4" />
+                     </input>
+                  </Glow>
+               </effect>
+               <padding>
+                  <Insets left="1.0" />
+               </padding></Slider>
+            <Slider fx:id="freqHP" layoutX="172.0" layoutY="14.0" majorTickUnit="500.0" max="16000.0" min="50.0" minorTickCount="10" orientation="VERTICAL" prefHeight="359.0" prefWidth="17.0" showTickLabels="true" showTickMarks="true" value="50.0">
+               <effect>
+                  <Glow level="0.57">
+                     <input>
+                        <ColorAdjust brightness="-0.57" contrast="1.0" hue="0.2" saturation="0.38" />
+                     </input>
+                  </Glow>
+               </effect>
+               <padding>
+                  <Insets right="-15.0" />
+               </padding></Slider>
+            <Slider fx:id="qHP" layoutX="249.0" layoutY="14.0" majorTickUnit="0.1" max="1.0" minorTickCount="10" orientation="VERTICAL" prefHeight="359.0" prefWidth="17.0" showTickLabels="true" showTickMarks="true" snapToPixel="false" value="0.5">
+               <effect>
+                  <Glow level="0.57">
+                     <input>
+                        <ColorAdjust brightness="-0.52" contrast="1.0" hue="0.2" saturation="0.4" />
+                     </input>
+                  </Glow>
+               </effect>
+               <padding>
+                  <Insets left="-30.0" right="5.0" />
+               </padding></Slider>
+         </children>
+      </Pane>
+      <HBox prefHeight="41.0" prefWidth="199.0" GridPane.columnIndex="11" GridPane.columnSpan="6" GridPane.rowIndex="44" GridPane.rowSpan="4">
+         <GridPane.margin>
+            <Insets bottom="10.0" left="30.0" />
+         </GridPane.margin>
+         <children>
+            <Label fx:id="roomSizeLabel" alignment="CENTER" prefHeight="21.0" prefWidth="88.0" text="Room Size" textAlignment="CENTER" textOverrun="CLIP">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Label>
+            <Label fx:id="earlyReflLabel" alignment="CENTER" layoutX="10.0" layoutY="20.0" prefHeight="37.0" prefWidth="89.0" text="Early reflections" textAlignment="CENTER" textOverrun="CLIP">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="15.0" />
+               </HBox.margin>
+            </Label>
+            <Label fx:id="dampingLabel" alignment="CENTER" layoutX="10.0" layoutY="20.0" prefHeight="18.0" prefWidth="73.0" text="Damping" textAlignment="CENTER" textOverrun="CLIP">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" nodeOrientation="RIGHT_TO_LEFT" prefHeight="90.0" prefWidth="10.0" GridPane.columnIndex="14" GridPane.columnSpan="10" GridPane.rowIndex="15" GridPane.rowSpan="9">
+         <children>
+            <Slider fx:id="roomSize" layoutX="78.0" layoutY="14.0" majorTickUnit="0.1" max="1.0" minorTickCount="10" orientation="VERTICAL" prefHeight="359.0" prefWidth="17.0" showTickLabels="true" showTickMarks="true" value="0.5">
+               <padding>
+                  <Insets left="5.0" />
+               </padding>
+               <effect>
+                  <Glow level="0.63">
+                     <input>
+                        <ColorAdjust brightness="-0.5" contrast="1.0" hue="-0.84" saturation="0.3" />
+                     </input>
+                  </Glow>
+               </effect></Slider>
+            <Slider fx:id="earlyRefl" layoutX="136.0" layoutY="14.0" majorTickUnit="0.1" max="1.0" minorTickCount="10" orientation="VERTICAL" prefHeight="359.0" prefWidth="17.0" showTickLabels="true" showTickMarks="true" value="0.5">
+               <effect>
+                  <Glow level="0.69">
+                     <input>
+                        <ColorAdjust brightness="-0.45" contrast="1.0" hue="-0.87" saturation="0.32" />
+                     </input>
+                  </Glow>
+               </effect></Slider>
+            <Slider fx:id="damping" layoutX="192.0" layoutY="14.0" majorTickUnit="0.1" max="1.0" minorTickCount="10" orientation="VERTICAL" prefHeight="359.0" prefWidth="18.0" showTickLabels="true" showTickMarks="true" value="0.5">
+               <effect>
+                  <Glow level="0.68">
+                     <input>
+                        <ColorAdjust brightness="-0.52" contrast="1.0" hue="-0.87" saturation="0.4" />
+                     </input>
+                  </Glow>
+               </effect></Slider>
+            <Slider fx:id="drywet" layoutX="200.0" layoutY="14.0" minorTickCount="10" orientation="VERTICAL" prefHeight="359.0" prefWidth="17.0" showTickLabels="true" showTickMarks="true">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <effect>
+                  <Glow level="0.64">
+                     <input>
+                        <ColorAdjust brightness="-0.52" contrast="1.0" hue="-0.88" saturation="0.32" />
+                     </input>
+                  </Glow>
+               </effect></Slider>
+         </children>
+         <GridPane.margin>
+            <Insets left="140.0" top="-1.0" />
+         </GridPane.margin>
+         <opaqueInsets>
+            <Insets bottom="3.0" left="50.0" right="3.0" top="3.0" />
+         </opaqueInsets>
+      </Pane>
+      <HBox prefHeight="31.0" prefWidth="424.0" GridPane.columnIndex="4" GridPane.columnSpan="13" GridPane.rowIndex="3">
+         <children>
+            <Button fx:id="chooseButton" lineSpacing="2.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="30.0" prefWidth="172.0" text="Choose a .wav file" textAlignment="CENTER" textOverrun="CLIP">
+               <font>
+                  <Font name="MS PGothic" size="13.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+            <ChoiceBox fx:id="chooseoutput" nodeOrientation="LEFT_TO_RIGHT" prefHeight="31.0" prefWidth="98.0" GridPane.columnIndex="21" GridPane.columnSpan="15" GridPane.rowIndex="3">
+               <items>
+
+               </items>
+               <HBox.margin>
+                  <Insets left="30.0" />
+               </HBox.margin>
+
+            </ChoiceBox>
+         </children>
+      </HBox>
+      <Pane prefHeight="82.0" prefWidth="40.0" GridPane.columnIndex="22" GridPane.rowIndex="15" GridPane.rowSpan="25">
+         <children>
+            <Slider fx:id="gainSlider" layoutX="36.0" layoutY="14.0" majorTickUnit="0.1" max="1.0" minorTickCount="10" orientation="VERTICAL" prefHeight="359.0" prefWidth="10.0" showTickLabels="true" showTickMarks="true" value="0.5">
+               <padding>
+                  <Insets left="-50.0" />
+               </padding>
+               <effect>
+                  <Glow level="0.77" />
+               </effect></Slider>
+         </children>
+         <GridPane.margin>
+            <Insets right="60.0" />
+         </GridPane.margin>
+         <padding>
+            <Insets right="40.0" />
+         </padding>
+      </Pane>
+      <Label fx:id="gainLabel" prefHeight="22.0" prefWidth="59.0" text="Gain" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="21" GridPane.rowIndex="44">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin>
+         <padding>
+            <Insets left="20.0" />
+         </padding></Label>
+      <Slider fx:id="timebar" stylesheets="@styl.css" GridPane.columnIndex="3" GridPane.columnSpan="15" GridPane.rowIndex="8">
+         <effect>
+            <ColorAdjust brightness="-0.12" contrast="0.63" hue="0.23" saturation="0.73">
+               <input>
+                  <BoxBlur height="29.88" iterations="3" width="6.22">
+                     <input>
+                        <MotionBlur angle="223.9" radius="0.0" />
+                     </input>
+                  </BoxBlur>
+               </input>
+            </ColorAdjust>
+         </effect></Slider>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="250.0" GridPane.columnIndex="5" GridPane.columnSpan="6" GridPane.rowIndex="15" GridPane.rowSpan="25">
+         <children>
+            <Slider fx:id="attack" layoutX="14.0" layoutY="9.0" majorTickUnit="50.0" max="500.0" min="1.0" minorTickCount="100" orientation="VERTICAL" prefHeight="359.0" prefWidth="17.0" showTickLabels="true" showTickMarks="true" value="1.0">
+               <effect>
+                  <Glow level="0.47">
+                     <input>
+                        <ColorAdjust brightness="-0.57" contrast="1.0" hue="-0.05" saturation="0.41" />
+                     </input>
+                  </Glow>
+               </effect>
+               <padding>
+                  <Insets right="-20.0" />
+               </padding></Slider>
+            <Slider fx:id="ratio" layoutX="82.0" layoutY="9.0" majorTickUnit="1.0" max="15.0" min="1.0" minorTickCount="100" orientation="VERTICAL" prefHeight="359.0" prefWidth="17.0" showTickLabels="true" showTickMarks="true" value="1.0">
+               <effect>
+                  <Glow level="0.45">
+                     <input>
+                        <ColorAdjust brightness="-0.5" contrast="1.0" hue="-0.07" saturation="0.38" />
+                     </input>
+                  </Glow>
+               </effect>
+               <padding>
+                  <Insets left="1.0" right="1.0" />
+               </padding></Slider>
+            <Slider fx:id="knee" layoutX="147.0" layoutY="9.0" majorTickUnit="0.1" max="1.0" minorTickCount="10" orientation="VERTICAL" prefHeight="359.0" prefWidth="17.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" value="0.5">
+               <effect>
+                  <Glow level="0.51">
+                     <input>
+                        <ColorAdjust brightness="-0.5" contrast="1.0" hue="-0.05" saturation="0.38" />
+                     </input>
+                  </Glow>
+               </effect>
+               <padding>
+                  <Insets left="1.0" right="1.0" />
+               </padding></Slider>
+            <Slider fx:id="thres" layoutX="212.0" layoutY="9.0" majorTickUnit="0.1" max="1.0" minorTickCount="10" orientation="VERTICAL" prefHeight="359.0" prefWidth="17.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" value="0.5">
+               <effect>
+                  <Glow level="0.68">
+                     <input>
+                        <ColorAdjust brightness="-0.43" contrast="1.0" hue="-0.05" saturation="0.4" />
+                     </input>
+                  </Glow>
+               </effect>
+               <padding>
+                  <Insets left="1.0" right="1.0" />
+               </padding></Slider>
+            <Slider fx:id="decay" layoutX="281.0" layoutY="9.0" majorTickUnit="0.1" max="1.0" minorTickCount="10" orientation="VERTICAL" prefHeight="359.0" prefWidth="17.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" value="0.5">
+               <effect>
+                  <Glow level="0.72">
+                     <input>
+                        <ColorAdjust brightness="-0.43" contrast="1.0" hue="-0.05" saturation="0.45" />
+                     </input>
+                  </Glow>
+               </effect>
+               <padding>
+                  <Insets left="-20.0" />
+               </padding></Slider>
+         </children>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+         <padding>
+            <Insets left="50.0" />
+         </padding></Pane>
+      <RadioButton fx:id="TurnOnComp" mnemonicParsing="false" onAction="#onCompRadioClicked" opacity="0.67" text="Turn on/off comp" textFill="WHITE" GridPane.columnIndex="8" GridPane.columnSpan="3" GridPane.rowIndex="13">
+         <font>
+            <Font name="MS PGothic" size="14.0" />
+         </font></RadioButton>
+   </children>
+</GridPane>

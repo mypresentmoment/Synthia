@@ -1,0 +1,35 @@
+.button{
+    -fx-background-color: #b36b00;
+    box-shadow: 20px, 20px,red;
+}
+
+#win{
+    -fx-background-image: url("tlopoprawne.png");
+
+}
+
+playButton:selected, pauseButton:selected, stopButton:selected{
+    -fx-background-color:  	#8B0000;
+}
+
+.slider .axis .axis-tick-mark, .slider .axis .axis-minor-tick-mark{
+    -fx-fill: null;
+    -fx-stroke: white;
+}
+
+.slider .axis{
+    -fx-tick-label-fill:white;
+}
+
+#lpf, #hpf, #gainLabel{
+    -fx-text-fill: white;
+}
+
+#turneq, #roomSizeLabel, #earlyReflLabel, #dampingLabel {
+    -fx-wrap-text: true ;
+    -fx-text-fill:white;
+}
+
+#chooseButton{
+    -fx-wrap-text: true;
+}

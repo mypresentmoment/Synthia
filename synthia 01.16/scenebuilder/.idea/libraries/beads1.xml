@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="beads1">
+    <CLASSES>
+      <root url="file://C:/Program Files/Java/beads" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://C:/Program Files/Java/beads/doc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://C:/Program Files/Java/beads/src/beads_io" />
+      <root url="file://C:/Program Files/Java/beads/src/beads_main" />
+      <root url="file://C:/Program Files/Java/beads/tutorial" />
+    </SOURCES>
+  </library>
+</component>

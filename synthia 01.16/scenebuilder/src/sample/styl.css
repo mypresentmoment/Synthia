@@ -1,0 +1,7 @@
+
+.slider .thumb {
+    -fx-pref-height: 100;
+    -fx-pref-width: 3;
+
+    -fx-background-color:#ff4d4d; 
+}
